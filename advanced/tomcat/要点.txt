@@ -1,0 +1,2 @@
+注意：不要再 Request 关闭 inputStream，因为它和socket关联，关闭inputStream也会关闭socket
+response.getWriter()的本质是outputStream
